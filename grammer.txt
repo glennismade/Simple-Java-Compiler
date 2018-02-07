@@ -1,0 +1,28 @@
+<identifier>
+First character is a letter, or any proceeding characters are letters or numbers.
+
+<type>:
+A primitive type: string, int, char, float, double boolean.
+
+<value>:
+Either an identifier (for a variable) or a literal (1, "Hello", true)
+
+Class Declaration:
+'class <identifier>'
+
+Method Declaration:
+'method <identifier = name> requires ([<type> <identifier = name>...]) returns <type>'
+
+Variable Declaration:
+'var <type> <identifier = name> [= <value>]'
+
+Method Invocation:
+'<identifier = name>([<value>...])'
+
+Print Statement:
+'Print <value>'
+
+Return Statement:
+'return <value>'
+
+
